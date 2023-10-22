@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WafaBot</title>
+</head>
+<body>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADvUlEQVR4nO2YW2gUVxjHp0oUXyxFQRCt0NbdWRFU1kuQdmbPtxYiRpnZJd7Ah1r0uUheBEUJUnp5SXVLUpTgmxBESHJO8LK5SYzJBi+hYK1VNNZo1UzWrCaGdDdfOZPudh2T7O7MOrOV/cOfDGfOmfP7ncm8rCAUU0wxeUtpaek8QsguADgLAL8RQl4BACbr9/t9QqHG5/MFCSH96cDGEkLahEIMAFTNBG6Q+J0Q8j0ALBIKIYSQg9nCGxojhAQchQeA9QDwt0kB/jbiAPClYwKEkFaz8GkS/V6vt8R2eL/fvyZbyK92Snj623V4v2ml/neKORW2CxBCjmYD/YCuRIyIb/TMj2uN8+ucEGib6aSN0MYa3kSvEwIPM510pp757008sF0AAEb55rlCGwuTH/KIEwKYLwEAwKJALhlqFbd88/XG1/l6A5X7No5qYddmwa5oYfHP52EPnji04Q2Ymn1LsHb/kmlhp7ofOrweB1s8ONjifmirgNbyNiCHq92/dFqB6e5rLaLdAq7NXCLRLU5Y/RfCHjHB4bVLrjLB7mCPeNuyQES8ZTt4SiDiPpmHN1DroIBnk2WBbhc4JjApIbaaP313u6PwkwLLP8Ee8XnuAm4Nr634TCiEYI9Hwoh7KCf4bs8XQiEFr3qWj3cuywg/fmUZFszJG6PREoxd/BDHOhZj/OqnONHt0suv+Vjswnzkc4RCjUZLMJsKhRrt/yhAFOqVFRqSVHr3Rm/XwPhTiqN3qjDWq2A0/LFefs3H+L0bka4BSaV/SAo7LgWb1zgG7ttGN0gK7ZRVhsnuPdDRiWl5WlODf1VXpw/pc9LXyCq7LAfZWtvAy8qa58oq+0VW6YQBBGWFjUZfjA0m4X9dtUpvUuLF8OshPmeKdQlZYT+vqKif807h5fLGhbLCOt4CSOsPob52Dvusri4lwGV4vjvR1z7TWlllV2Brw7v5zdSvnFsgqfR2BgCEYHN/PJGIx6PRlAC/jicSCX4v03pZZbc+30I/yjM+fiAp7HwWm+s93/YoMnLzZkpgpK9PH8t2vaQwmld8OUD3ZLs5b3BvODLU0JASiDY26mO5PEMKsN15ga+oqJ8tK+xeLpvzj/JaVXU0KXD92PFh/UPN7Rl3hCNHZuXj9DfltPG/PbwjNJAUOLQ9NGDmGVKAEusCCvvJzOagNg1fX+1FXlCbYmaeIau02rqAyrrMbc7wVHnly5Plla/MrpcU2mlZQFLYE7MAgWD9Y17zAuyJdQGVjpkFsFpJpWOWBYop5j3PP3VLuGY80dS8AAAAAElFTkSuQmCC" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">WafaBot</h4>
+                    <p class="chatbox__description--header">Bonjour, je suis WafaBot. Je suis là pour répondre à vos questions.</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Ecrire un message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="data:image/png;base64,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" /> </button>
+        </div>
+    </div>
+</div>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
