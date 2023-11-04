@@ -6,7 +6,6 @@ Furthermore, the chatbot is deployed thanks to  Flask and JavaScript.
 - Nltk
 - Torch
 - Numpy
-- Model
 
 ## Project summary
 Before we start creating our chatbot, we need a json file containing all the data needed to train and test our AI.
